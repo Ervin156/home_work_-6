@@ -17,7 +17,7 @@ body.append(div);
 var arr = [];
 
 function secondForm() {
-    btn.remove();
+    div.remove();
 
     var divSecond = document.createElement('div');
     divSecond.className = 'second'
@@ -46,7 +46,7 @@ function secondForm() {
             thirdForm();
         }
         function thirdForm() {
-            btnSecond.remove();
+            divSecond.remove();
             var divThird = document.createElement('div');
             divThird.className = 'third';
             var inpTitleThird = document.createElement('input');
@@ -95,7 +95,7 @@ function secondForm() {
                         body.append(divRes);
 
                         btnRes.onclick = () => {
-                            alert('Operation conplete');
+                            alert('Operation conmlete');
                         }
                     }
                 }
